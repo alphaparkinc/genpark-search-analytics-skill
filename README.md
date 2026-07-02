@@ -1,3 +1,3 @@
-﻿# genpark-search-analytics-skill
+# genpark-search-analytics-skill
 
-Ready to use SDK library for genpark-search-analytics-skill.
+Production-ready agent skill for Search keyword metrics clicks.

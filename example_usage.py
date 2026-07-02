@@ -1,10 +1,10 @@
-﻿import sys
-from client import Client
+from client import SearchAnalyticsClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = SearchAnalyticsClient()
+    print(c.aggregate_metrics([
+        {"query": "headphones", "results_count": 12},
+        {"query": "headphones", "results_count": 12},
+        {"query": "broken wallet", "results_count": 0}
+    ]))
 if __name__ == '__main__':
     main()
