@@ -1,17 +1,17 @@
-﻿{
-    "version":  "1.0.0",
-    "name":  "genpark-search-analytics-skill",
-    "outputs":  {
-                    "result_val":  {
-                                       "type":  "string"
-                                   }
-                },
-    "description":  "GenPark analytics search keyword metrics and clicks monitoring skill.",
-    "inputs":  {
-                   "input_val":  {
-                                     "type":  "string"
-                                 }
-               },
-    "author":  "alphaparkinc",
-    "prompt":  "Coordinate genpark-search-analytics-skill operations using the input configurations."
+{
+  "version": "1.0.0",
+  "name": "genpark-search-analytics-skill",
+  "outputs": {
+    "result_val": {
+      "type": "string"
+    }
+  },
+  "description": "GenPark analytics search keyword metrics and clicks monitoring skill.",
+  "inputs": {
+    "input_val": {
+      "type": "string"
+    }
+  },
+  "author": "genpark",
+  "prompt": "Coordinate genpark-search-analytics-skill operations using the input configurations."
 }
